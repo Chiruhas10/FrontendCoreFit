@@ -21,7 +21,7 @@ const AddProduct = () => {
   const submitHandler = (e) => {
     e.preventDefault();
 
-    axios.post('api/products', {
+    axios.post('https://servercorefit.onrender.com/api/products', {
       ...product,
       price: Number(product.price)
     })

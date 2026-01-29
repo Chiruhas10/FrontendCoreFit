@@ -23,7 +23,7 @@ mongoose.connect("mongodb+srv://chiruhas10_db_user:SV8lECoMyZ0ti14B@corefit.7sla
   .catch((err) => console.log("MongoDB error ❌", err));
 
 /* ---------- ROUTES ---------- */
-app.use("/api", productRoutes);
+app.use("/api/products", productRoutes);
 app.use("/api", enquiryRoutes);
 app.use("/api", adminRoutes);
 
