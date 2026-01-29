@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import axios from 'axios';
 
+
+axios.defaults.baseURL = "https://servercorefit.onrender.com";
+
 const AddProduct = () => {
   const [product, setProduct] = useState({
     name: '',
@@ -18,7 +21,7 @@ const AddProduct = () => {
   const submitHandler = (e) => {
     e.preventDefault();
 
-    axios.post('https://servercorefit.onrender.com/products', {
+    axios.post('api/products', {
       ...product,
       price: Number(product.price)
     })
