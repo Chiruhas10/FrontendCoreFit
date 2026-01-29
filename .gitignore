@@ -14,3 +14,5 @@ Client/build/
 # OS files
 .DS_Store
 Thumbs.db
+# logs
+logs
