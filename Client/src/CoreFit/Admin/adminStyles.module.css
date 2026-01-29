@@ -1,0 +1,71 @@
+/* Breadcrumb / Header section */
+.bread {
+  background: linear-gradient(135deg, #000000, #1f1f1f);
+  padding: 60px 0;
+  color: #ffffff;
+}
+
+.bread h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Admin login background */
+.adminlogin {
+  background-color: #f5f7fa;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Login card shadow */
+.bx_shadow {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs */
+.bx_shadow input {
+  height: 45px;
+  font-size: 15px;
+}
+
+/* Login button */
+.bx_shadow input[type="submit"] {
+  height: 45px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #0d6efd;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.bx_shadow input[type="submit"]:hover {
+  background-color: #084298;
+}
+
+/* Links */
+.bx_shadow a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #0d6efd;
+  font-weight: 500;
+}
+
+.bx_shadow a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .bx_shadow {
+    padding: 25px;
+  }
+
+  .bread h1 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,38 @@
+.core{
+    color: #39FF14;
+}
+.fit{
+    color: #FFFFFF;
+}
+.Slidebutton{
+    background-color: #39FF14 !important;
+    color: #FFFFFF !important;
+    border: none !important;
+}
+.Slidebutton:hover{
+    background-color: #228B22 !important;
+
+}
+form p{
+    color: red;
+    padding: 0px 10px;
+}
+aside{
+    text-align: center;
+    border-right: 2px solid black;
+    padding: 50px 0px;
+    cursor: pointer;
+   
+}
+aside button{
+    width: 100%;
+    height: 50px;
+    /* margin-bottom: 10px; */
+    /* border: 2px solid black; */
+     transition-duration: 1s;
+
+}
+aside button:hover{
+    background-color: #39FF14 !important ;
+    color: white !;
+}
