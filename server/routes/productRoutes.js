@@ -21,10 +21,14 @@ router.get("/:id", async (req, res) => {
 
 // POST product
 router.post("/", async (req, res) => {
+  console.log("ADD PRODUCT BODY:", req.body); // 👈 DEBUG LINE
+
   const product = new Product(req.body);
   const savedProduct = await product.save();
+
   res.json(savedProduct);
 });
+
 
 // UPDATE product
 router.put("/:id", async (req, res) => {
